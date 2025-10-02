@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import { Main_comic } from "$lib";
+    import { Home_button }from "$lib";
+</script>
+
+<header>
+    <Home_button />
+</header>
+
+<main>
+    <Main_comic />
+</main>
+
+<style>
+    main{
+        margin: 5px;
+    }
+</style>
